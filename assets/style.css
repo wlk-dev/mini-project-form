@@ -18,6 +18,14 @@ a {
     color: black;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
+#logo-link:hover {
+    text-decoration: none;
+}
+
 figure {
     margin: -10em 35em;
     font-size: .75em;
@@ -66,9 +74,14 @@ footer {
 }
 
 footer h2 {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 footer small {
     font-size: 16px
+}
+
+#dev-name {
+    color: palevioletred;
+    font-weight: 500;
 }
