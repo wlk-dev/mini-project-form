@@ -64,8 +64,11 @@ button {
 }
 
 button:hover {
-    outline: auto; 
-    border-radius: 6px;
+    /* outline: auto;
+    outline-width: thin; */
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: bisque;
 }
 
 footer {
